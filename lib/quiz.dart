@@ -29,7 +29,7 @@ class _QuizState extends State<Quiz> {
       ]
     },
     {
-      "question": "How long is the Great Wall of China?é",
+      "question": "How long is the Great Wall of China?",
       "answers": [
         {"response": "4000 miles", "value": true},
         {"response": "3000 miles", "value": true},
