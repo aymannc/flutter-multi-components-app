@@ -18,7 +18,7 @@ class _GalleryPageState extends State<GalleryPage> {
         appBar: AppBar(
           title: Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("Gallery of"+_keyword),
+            child: Text("Gallery of "+_keyword),
           ),
           backgroundColor: Color(primaryColor),
         ),

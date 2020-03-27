@@ -23,9 +23,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
   google_fonts: ^0.3.10
-  intl:
-  http:
-  weather_icons:
+  intl: any
+  http: any
+  url_launcher:
+  weather_icons: any
+  barcode_scan: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

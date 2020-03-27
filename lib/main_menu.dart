@@ -1,6 +1,7 @@
 import 'package:classapp/colors.dart';
 import 'package:classapp/quiz.dart';
 import 'package:classapp/weather.dart';
+import 'package:classapp/QRReader.dart';
 import 'package:flutter/material.dart';
 
 import 'gallery_page.dart';
@@ -98,6 +99,30 @@ class MyMenu extends StatelessWidget {
                 Navigator.of(context).pop();
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => GalleryPage()));
+              },
+            ),
+            Divider(),
+            ListTile(
+              contentPadding: EdgeInsets.symmetric(horizontal: 30),
+              leading: Icon(
+                Icons.settings_overscan,
+                color: Colors.white,
+              ),
+              trailing: Icon(
+                Icons.arrow_right,
+                color: Colors.white,
+              ),
+              title: Text(
+                "QR reader",
+                style: TextStyle(
+                  fontSize: 18.0,
+                  color: Colors.white,
+                ),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => QRReader()));
               },
             )
           ],

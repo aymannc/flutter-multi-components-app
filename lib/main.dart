@@ -16,7 +16,7 @@ void main() {
         headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
         title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
         body1: TextStyle(fontSize: 24.0, fontStyle: FontStyle.italic),
-        body2: TextStyle(fontSize: 20.0),
+        body2: TextStyle(fontSize: 20.0, color: Color(primaryColor)),
       ),
     ),
     home: MyApp(),
